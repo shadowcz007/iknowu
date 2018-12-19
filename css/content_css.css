@@ -1,0 +1,173 @@
+
+#mix-main{
+    display: flex;
+    flex-direction: column;
+}
+.mix-pannel{
+    position:fixed;
+    z-index:99999999999999;
+    background:white;
+    bottom: 0;
+}
+
+.mix-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.mix-card{
+    
+    background-color: #eee;
+    margin: 4px;
+    border-radius: 8px;
+    min-width: 240px;
+     display: flex;
+    flex-direction: row;
+
+}
+.mix-title{
+    font-size: 14px;
+    padding: 8px;
+    font-weight: 300;
+    margin: 0;
+    flex:1;
+    min-width: 240px;
+}
+
+.mix-rank-info{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.mix-rank-info p{
+    opacity: 0.5;
+    height: 32px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    width:120px;
+    margin: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 4px;
+}
+
+.all_from{
+    background: red!important;
+}
+.zhihu{
+    background: blue !important;
+
+}
+
+.weibo{
+    background: pink !important;
+}
+
+.baidu{
+    background: orange !important;
+}
+
+.vqq{ 
+    background: palevioletred !important;
+}
+
+.sougou{
+    background: yellowgreen !important;
+}
+
+
+#mix-canvas{
+    height: 100%;
+}
+
+.mix-color{
+    width: 44px;
+    height: 44px;
+    border-radius: 88px;
+    margin: 12px;
+}
+.mix-color-name{
+color:white;
+font-size: 12px;
+font-weight: 300;
+}
+
+.mix-hr{
+    border:2px dashed #eee;
+    height:2px;
+    
+}
+#mix-colors{
+    display: flex;
+    background: black;
+    padding: 32px;
+}
+
+.mix-image-main{
+     width: 100%;
+     height: 100%;
+     top:0;
+     left: 0;
+     position: fixed;
+     z-index: 99;
+}
+
+#mix-loading{
+    position: absolute;
+    bottom: 44px;
+    left: 0;
+    font-size: 8px;
+    background: red;
+    color: black;
+    font-weight: 800;
+    padding: 8px;
+    height: 8px;
+    width: 100%;
+}
+
+.mix-loading-hide{
+    display: none;
+}
+
+#mix-faceMask{
+    position: absolute;
+}
+
+#mix-faceMask canvas{
+    width: 100%;
+}
+
+.flex-img{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    justify-content: center;
+    padding: 56px;
+}
+
+.flex-img img{
+    display: flex;
+    height: 200px; 
+    border: 16px solid white;
+}
+
+.flex-img canvas{
+    
+}
+
+.screenshot-btn {
+
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    background: white;
+    border-radius: 12px;
+    color:black;
+    font-size:44px;
+    line-height: 44px;
+
+}
